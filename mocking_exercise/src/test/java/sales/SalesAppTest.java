@@ -47,24 +47,41 @@ public class SalesAppTest {
     @Test
     public void should_return_not_null_given_sales_when_call_getSalesReportData() {
         List<SalesReportData> reportDataList = new ArrayList<>();
+        List<SalesReportData> filteredDataList = new ArrayList<>();
         SalesReportData salesReportData = mock(SalesReportData.class);
         reportDataList.add(salesReportData);
         Sales sales = new Sales();
         Mockito.when(salesReportDao.getReportData(sales)).thenReturn(reportDataList);
-        List<SalesReportData> result = mockSalesApp.getSalesReportData(false,sales,reportDataList);
+        List<SalesReportData> result = mockSalesApp.getSalesReportData(false,sales,reportDataList,filteredDataList);
         Assert.assertNotNull(result);
     }
 
     @Test
-    public void should_run_1_tines_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList() {
-        SalesApp spySalesApp = spy(new SalesApp());
+    public void should_return_not_null_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList() {
+        List<SalesReportData> reportDataList = new ArrayList<>();
+        List<SalesReportData> filteredDataList = new ArrayList<>();
         SalesReportData salesReportData = mock(SalesReportData.class);
-        List<SalesReportData> reportDataList = Arrays.asList(salesReportData);
-//		List<SalesReportData>
-
-        spySalesApp.replaceFilteredReportDataList(1000, reportDataList);
-
-        verify(spySalesApp, times(1)).replaceFilteredReportDataList(1000, reportDataList);
+        reportDataList.add(salesReportData);
+        List<SalesReportData> result = mockSalesApp.replaceFilteredReportDataList(1,reportDataList,filteredDataList);
+        Assert.assertNotNull(result);
     }
 
+    @Test
+    public void should_return_SalesID_SalesName_Activity_Time_given_isNatTrade_is_true_when_call_getHeaders(){
+        List<String> result = mockSalesApp.getHeaders(true);
+        List<String> headers = Arrays.asList("Sales ID", "Sales Name", "Activity", "Time");
+        Assert.assertEquals(result,headers);
+    }
+
+    @Test
+    public void should_return_SalesID_SalesName_Activity_LocalTime_given_isNatTrade_is_true_when_call_getHeaders(){
+        List<String> result = mockSalesApp.getHeaders(false);
+        List<String> headers = Arrays.asList("Sales ID", "Sales Name", "Activity", "Local Time");
+        Assert.assertEquals(result,headers);
+    }
+
+    @Test
+    public void should_run_1_times_given_salesActivityReport_when_call_uploadEcmServiceDocument(){
+        
+    }
 }

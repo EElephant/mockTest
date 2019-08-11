@@ -22,21 +22,20 @@ public class SalesApp {
 	public void generateSalesActivityReport(String salesId, int maxRow, boolean isNatTrade, boolean isSupervisor) {
 
 		if (salesId == null) return;
-
 		Sales sales = getSales(salesId);
 
 		if (sales == null) return;
 
-
 		List<SalesReportData> reportDataList = new ArrayList<>();
-		getSalesReportData(isSupervisor, sales,reportDataList);
+		List<SalesReportData> filteredReportDataList = new ArrayList<>();
 
-		replaceFilteredReportDataList(maxRow, reportDataList);
+		getSalesReportData(isSupervisor, sales,reportDataList,filteredReportDataList);
+
+		replaceFilteredReportDataList(maxRow, reportDataList,filteredReportDataList);
 
 		List<String> headers = getHeaders(isNatTrade);
 
 		SalesActivityReport report = this.generateReport(headers, reportDataList);
-
 		uploadEcmServiceDocument(report);
 	}
 
@@ -55,19 +54,16 @@ public class SalesApp {
 		return headers;
 	}
 
-	protected void replaceFilteredReportDataList(int maxRow, List<SalesReportData> reportDataList) {
-		List<SalesReportData> filteredReportDataList;
+	protected List<SalesReportData> replaceFilteredReportDataList(int maxRow, List<SalesReportData> reportDataList,List<SalesReportData> filteredReportDataList) {
 		List<SalesReportData> tempList = new ArrayList<SalesReportData>();
 		for (int i=0; i < reportDataList.size() || i < maxRow; i++) {
 			tempList.add(reportDataList.get(i));
 		}
 		filteredReportDataList = tempList;
+		return filteredReportDataList;
 	}
 
-	protected List<SalesReportData> getSalesReportData(boolean isSupervisor, Sales sales,List<SalesReportData> reportDataList) {
-		SalesReportDao salesReportDao = new SalesReportDao();
-		List<SalesReportData> filteredReportDataList = new ArrayList<SalesReportData>();
-
+	protected List<SalesReportData> getSalesReportData(boolean isSupervisor, Sales sales,List<SalesReportData> reportDataList,List<SalesReportData> filteredReportDataList) {
 		for (SalesReportData data : reportDataList) {
 			if ("SalesActivity".equalsIgnoreCase(data.getType())) {
 				if (data.isConfidential()) {

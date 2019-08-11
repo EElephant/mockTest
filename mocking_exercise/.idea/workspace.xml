@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db7480ba-f1df-4550-a996-d3e9a136bd95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" afterDir="false" />
     </list>
@@ -22,11 +21,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="30" column="65" lean-forward="true" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+            <state relative-caret-position="419">
+              <caret line="49" column="82" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="82" />
               <folding>
                 <element signature="e#1584#1601#0" expanded="true" />
-                <element signature="e#1384#1401#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="53" column="97" selection-start-line="53" selection-start-column="97" selection-end-line="53" selection-end-column="97" />
+            <state relative-caret-position="501">
+              <caret line="72" column="44" lean-forward="true" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +96,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="328" />
+    <option name="y" value="46" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -205,7 +203,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_not_null_given_sales_when_call_getSalesReportData">
+  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_SalesID_SalesName_Activity_LocalTime_given_isNatTrade_is_true_when_call_getHeaders">
+    <configuration name="SalesAppTest.should_return_SalesID_SalesName_Activity_LocalTime_given_isNatTrade_is_true_when_call_getHeaders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="should_return_SalesID_SalesName_Activity_LocalTime_given_isNatTrade_is_true_when_call_getHeaders" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesAppTest.should_return_SalesID_SalesName_Activity_Time_given_isNatTrade_is_true_when_call_getHeaders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="should_return_SalesID_SalesName_Activity_Time_given_isNatTrade_is_true_when_call_getHeaders" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesAppTest.should_return_not_null_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="should_return_not_null_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SalesAppTest.should_return_not_null_given_right_salesId_when_call_getSales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
@@ -217,54 +263,6 @@
       <option name="PACKAGE_NAME" value="sales" />
       <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
       <option name="METHOD_NAME" value="should_return_not_null_given_right_salesId_when_call_getSales" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalesAppTest.should_return_not_null_given_sales_when_call_getSalesReportData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="should_return_not_null_given_sales_when_call_getSalesReportData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalesAppTest.should_run_1_times_given_right_salesId_when_call_getSales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="should_run_1_times_given_right_salesId_when_call_getSales" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalesAppTest.should_run_1_times_given_sales_when_call_getSalesReportData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="should_run_1_times_given_sales_when_call_getSalesReportData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -288,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SalesAppTest.should_return_not_null_given_sales_when_call_getSalesReportData" />
-        <item itemvalue="JUnit.SalesAppTest.should_return_not_null_given_right_salesId_when_call_getSales" />
-        <item itemvalue="JUnit.SalesAppTest.should_run_1_times_given_right_salesId_when_call_getSales" />
+        <item itemvalue="JUnit.SalesAppTest.should_return_SalesID_SalesName_Activity_LocalTime_given_isNatTrade_is_true_when_call_getHeaders" />
+        <item itemvalue="JUnit.SalesAppTest.should_return_SalesID_SalesName_Activity_Time_given_isNatTrade_is_true_when_call_getHeaders" />
+        <item itemvalue="JUnit.SalesAppTest.should_return_not_null_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList" />
         <item itemvalue="JUnit.SalesAppTest.should_run_1_tines_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList" />
-        <item itemvalue="JUnit.SalesAppTest.should_run_1_times_given_sales_when_call_getSalesReportData" />
+        <item itemvalue="JUnit.SalesAppTest.should_return_not_null_given_right_salesId_when_call_getSales" />
       </list>
     </recent_temporary>
   </component>
@@ -310,35 +308,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SalesAppTest_should_run_1_times_given_right_salesId_when_call_getSales - 2019.08.11 at 23h 18m 21s.xml">
-      <configuration name="SalesAppTest.should_run_1_times_given_right_salesId_when_call_getSales" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesAppTest_should_run_1_times_given_right_salesId_when_call_getSales - 2019.08.11 at 23h 22m 54s.xml">
-      <configuration name="SalesAppTest.should_run_1_times_given_right_salesId_when_call_getSales" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesAppTest_should_run_1_times_given_right_salesId_when_call_getSales - 2019.08.11 at 23h 22m 57s.xml">
-      <configuration name="SalesAppTest.should_run_1_times_given_right_salesId_when_call_getSales" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesAppTest_should_run_1_times_given_right_salesId_when_call_getSales - 2019.08.11 at 23h 24m 15s.xml">
-      <configuration name="SalesAppTest.should_run_1_times_given_right_salesId_when_call_getSales" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesAppTest_should_return_not_null_given_sales_when_call_getSalesReportData - 2019.08.11 at 23h 34m 33s.xml">
+    <history-entry file="SalesAppTest_should_return_not_null_given_sales_when_call_getSalesReportData - 2019.08.11 at 23h 45m 54s.xml">
       <configuration name="SalesAppTest.should_return_not_null_given_sales_when_call_getSalesReportData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_not_null_given_sales_when_call_getSalesReportData - 2019.08.11 at 23h 35m 18s.xml">
+    <history-entry file="SalesAppTest_should_return_not_null_given_sales_when_call_getSalesReportData - 2019.08.11 at 23h 55m 31s.xml">
       <configuration name="SalesAppTest.should_return_not_null_given_sales_when_call_getSalesReportData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_not_null_given_sales_when_call_getSalesReportData - 2019.08.11 at 23h 36m 46s.xml">
-      <configuration name="SalesAppTest.should_return_not_null_given_sales_when_call_getSalesReportData" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_return_not_null_given_right_salesId_when_call_getSales - 2019.08.11 at 23h 55m 35s.xml">
+      <configuration name="SalesAppTest.should_return_not_null_given_right_salesId_when_call_getSales" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_not_null_given_sales_when_call_getSalesReportData - 2019.08.11 at 23h 37m 57s.xml">
-      <configuration name="SalesAppTest.should_return_not_null_given_sales_when_call_getSalesReportData" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_run_1_tines_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList - 2019.08.12 at 00h 02m 58s.xml">
+      <configuration name="SalesAppTest.should_run_1_tines_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_not_null_given_sales_when_call_getSalesReportData - 2019.08.11 at 23h 39m 09s.xml">
-      <configuration name="SalesAppTest.should_return_not_null_given_sales_when_call_getSalesReportData" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_run_1_tines_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList - 2019.08.12 at 00h 05m 32s.xml">
+      <configuration name="SalesAppTest.should_run_1_tines_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_not_null_given_sales_when_call_getSalesReportData - 2019.08.11 at 23h 42m 39s.xml">
-      <configuration name="SalesAppTest.should_return_not_null_given_sales_when_call_getSalesReportData" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_run_1_tines_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList - 2019.08.12 at 00h 06m 30s.xml">
+      <configuration name="SalesAppTest.should_run_1_tines_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesAppTest_should_run_1_tines_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList - 2019.08.12 at 00h 06m 33s.xml">
+      <configuration name="SalesAppTest.should_run_1_tines_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesAppTest_should_return_not_null_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList - 2019.08.12 at 00h 07m 22s.xml">
+      <configuration name="SalesAppTest.should_return_not_null_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesAppTest_should_return_not_null_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList - 2019.08.12 at 00h 07m 30s.xml">
+      <configuration name="SalesAppTest.should_return_not_null_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesAppTest_should_return_not_null_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList - 2019.08.12 at 00h 07m 43s.xml">
+      <configuration name="SalesAppTest.should_return_not_null_given_maxRow_and_reportDataList_when_call_replaceFilteredReportDataList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -353,7 +351,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Job Explorer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18788558" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18788558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Terminal" />
@@ -363,8 +361,8 @@
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33437175" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3665628" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27725857" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3665628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -377,18 +375,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/parking/CarDaoImpl.java">
@@ -541,19 +527,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="65" lean-forward="true" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+        <state relative-caret-position="419">
+          <caret line="49" column="82" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="82" />
           <folding>
             <element signature="e#1584#1601#0" expanded="true" />
-            <element signature="e#1384#1401#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="53" column="97" selection-start-line="53" selection-start-column="97" selection-end-line="53" selection-end-column="97" />
+        <state relative-caret-position="501">
+          <caret line="72" column="44" lean-forward="true" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
