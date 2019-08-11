@@ -7,24 +7,36 @@ import java.util.List;
 
 public class SalesApp {
 
+	SalesReportDao salesReportDao;
+	SalesDao salesDao;
+	EcmService ecmService;
+	Date date;
+
+	public SalesApp() {
+		this.salesReportDao = new SalesReportDao();
+		this.salesDao = new SalesDao();
+		this.ecmService = new EcmService();
+		this.date = new Date();
+	}
+
 	public void generateSalesActivityReport(String salesId, int maxRow, boolean isNatTrade, boolean isSupervisor) {
 
 		if (salesId == null) return;
 
-		SalesDao salesDao = new SalesDao();
-		Sales sales = salesDao.getSalesBySalesId(salesId);
-		Date today = new Date();
-		getSales(salesId,salesDao,sales,today);
+		Sales sales = getSales(salesId);
 
 		if (sales == null) return;
 
-		SalesReportDao salesReportDao = new SalesReportDao();
-		List<SalesReportData> reportDataList = getSalesReportData(isSupervisor, sales,salesReportDao);
-		
-		List<SalesReportData> filteredReportDataList;
+
+		List<SalesReportData> reportDataList = new ArrayList<>();
+		getSalesReportData(isSupervisor, sales,reportDataList);
+
 		replaceFilteredReportDataList(maxRow, reportDataList);
+
 		List<String> headers = getHeaders(isNatTrade);
+
 		SalesActivityReport report = this.generateReport(headers, reportDataList);
+
 		uploadEcmServiceDocument(report);
 	}
 
@@ -52,9 +64,8 @@ public class SalesApp {
 		filteredReportDataList = tempList;
 	}
 
-	protected List<SalesReportData> getSalesReportData(boolean isSupervisor, Sales sales, SalesReportDao salesReportDao) {
-//		SalesReportDao salesReportDao = new SalesReportDao();
-		List<SalesReportData> reportDataList = salesReportDao.getReportData(sales);
+	protected List<SalesReportData> getSalesReportData(boolean isSupervisor, Sales sales,List<SalesReportData> reportDataList) {
+		SalesReportDao salesReportDao = new SalesReportDao();
 		List<SalesReportData> filteredReportDataList = new ArrayList<SalesReportData>();
 
 		for (SalesReportData data : reportDataList) {
@@ -71,13 +82,10 @@ public class SalesApp {
 		return reportDataList;
 	}
 
-	protected Sales getSales(String salesId,SalesDao salesDao,Sales sales,Date today) {
-//		SalesDao salesDao = new SalesDao();
-//		Sales sales = salesDao.getSalesBySalesId(salesId);
-
-//		Date today = new Date();
-		if (today.after(sales.getEffectiveTo())
-				|| today.before(sales.getEffectiveFrom())){
+	protected Sales getSales(String salesId) {
+		Sales sales = salesDao.getSalesBySalesId(salesId);
+		if (date.after(sales.getEffectiveTo())
+				|| date.before(sales.getEffectiveFrom())){
 			return null;
 		}
 		return sales;
