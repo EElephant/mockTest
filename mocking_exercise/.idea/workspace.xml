@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db7480ba-f1df-4550-a996-d3e9a136bd95" name="Default Changelist" comment="" />
+    <list default="true" id="db7480ba-f1df-4550-a996-d3e9a136bd95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jmockit_jmockit_1_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking/CarDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking/CarDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking/InOrderParkingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking/ParkingBoy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking/ParkingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking/Receipt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking/VipParkingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sales/EcmService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sales/Sales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sales/SalesActivityReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sales/SalesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sales/SalesReportDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sales/SalesReportData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/parking/InOrderParkingStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/parking/InOrderParkingStrategyTestAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/parking/ParkingLotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyJMockitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyJMockitTestAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyTestAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking/CarDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking/CarDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking/InOrderParkingStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking/ParkingBoy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking/ParkingLot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking/ParkingStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking/Receipt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking/VipParkingStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sales/EcmService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sales/Sales.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sales/SalesActivityReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sales/SalesApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sales/SalesDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sales/SalesReportDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sales/SalesReportData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/InOrderParkingStrategyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/InOrderParkingStrategyTestAnswer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/ParkingLotTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyJMockitTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyJMockitTestAnswer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyJMockitTestAnswer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyJMockitTestAnswer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyTestAnswer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/sales/SalesAppTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +86,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="150">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="43" />
               <folding>
                 <element signature="e#1134#1151#0" expanded="true" />
                 <element signature="e#1384#1401#0" expanded="true" />
@@ -28,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
@@ -51,6 +122,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -69,6 +143,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -153,6 +228,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -274,9 +350,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SalesAppTest_should_return_true_given_today_time_when_call_getSales - 2019.08.11 at 21h 37m 00s.xml">
-      <configuration name="SalesAppTest.should_return_true_given_today_time_when_call_getSales" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SalesAppTest_should_return_true_given_today_time_when_call_getSales - 2019.08.11 at 21h 40m 46s.xml">
       <configuration name="SalesAppTest.should_return_true_given_today_time_when_call_getSales" configurationId="JUnit" />
     </history-entry>
@@ -302,6 +375,9 @@
       <configuration name="SalesAppTest.should_return_true_given_today_time_when_call_getSales" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SalesAppTest_should_return_true_given_today_time_when_call_getSales - 2019.08.11 at 21h 52m 45s.xml">
+      <configuration name="SalesAppTest.should_return_true_given_today_time_when_call_getSales" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesAppTest_should_return_true_given_today_time_when_call_getSales - 2019.08.11 at 21h 54m 18s.xml">
       <configuration name="SalesAppTest.should_return_true_given_today_time_when_call_getSales" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -470,23 +546,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="e#1134#1151#0" expanded="true" />
-            <element signature="e#1384#1401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#1134#1151#0" expanded="true" />
+            <element signature="e#1384#1401#0" expanded="true" />
           </folding>
         </state>
       </provider>
