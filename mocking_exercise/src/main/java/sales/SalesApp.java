@@ -39,9 +39,14 @@ public class SalesApp {
 		uploadEcmServiceDocument(report);
 	}
 
-	protected void uploadEcmServiceDocument(SalesActivityReport report) {
+	protected boolean uploadEcmServiceDocument(SalesActivityReport report) {
 		EcmService ecmService = new EcmService();
-		ecmService.uploadDocument(report.toXml());
+		if (report != null) {
+			ecmService.uploadDocument(report.toXml());
+			return true;
+		}
+		else
+			return false;
 	}
 
 	protected List<String> getHeaders(boolean isNatTrade) {

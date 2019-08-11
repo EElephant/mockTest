@@ -82,6 +82,10 @@ public class SalesAppTest {
 
     @Test
     public void should_run_1_times_given_salesActivityReport_when_call_uploadEcmServiceDocument(){
-        
+        SalesActivityReport salesActivityReport = mock(SalesActivityReport.class);
+        Mockito.when(ecmService.uploadDocument(salesActivityReport.toXml())).thenReturn(true);
+        Boolean result = mockSalesApp.uploadEcmServiceDocument(salesActivityReport);
+        Assert.assertEquals(true,result);
+
     }
 }
