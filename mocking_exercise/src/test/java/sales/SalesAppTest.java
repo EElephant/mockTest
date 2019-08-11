@@ -18,13 +18,25 @@ public class SalesAppTest {
 	}
 
 	@Test
-	public void should_return_true_given_today_time_when_call_getSales(){
+	public void should_run_1_times_given_right_salesId_when_call_getSales(){
 		SalesApp spySalesApp = spy(new SalesApp());
 		SalesDao salesDao = mock(SalesDao.class);
 		Sales sales = mock(Sales.class);
 		Date date = mock(Date.class);
-		spySalesApp.getSales("DUMMY",salesDao,sales,date);
-		verify(spySalesApp,times(1)).getSales("DUMMY",salesDao,sales,date);
 
+		spySalesApp.getSales("DUMMY",salesDao,sales,date);
+
+		verify(spySalesApp,times(1)).getSales("DUMMY",salesDao,sales,date);
+	}
+
+	@Test
+	public void should_run_1_times_given_sales_when_call_getSalesReportData(){
+		SalesApp spySalesApp = spy(new SalesApp());
+		Sales sales = mock(Sales.class);
+		SalesReportDao salesReportDao = mock(SalesReportDao.class);
+
+		spySalesApp.getSalesReportData(false,sales,salesReportDao);
+
+		verify(spySalesApp,times(1)).getSalesReportData(false,sales,salesReportDao);
 	}
 }

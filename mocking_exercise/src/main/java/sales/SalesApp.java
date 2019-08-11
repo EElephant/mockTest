@@ -10,12 +10,17 @@ public class SalesApp {
 	public void generateSalesActivityReport(String salesId, int maxRow, boolean isNatTrade, boolean isSupervisor) {
 
 		if (salesId == null) return;
+
 		SalesDao salesDao = new SalesDao();
 		Sales sales = salesDao.getSalesBySalesId(salesId);
 		Date today = new Date();
 		getSales(salesId,salesDao,sales,today);
+
 		if (sales == null) return;
-		List<SalesReportData> reportDataList = getSalesReportData(isSupervisor, sales);
+
+		SalesReportDao salesReportDao = new SalesReportDao();
+		List<SalesReportData> reportDataList = getSalesReportData(isSupervisor, sales,salesReportDao);
+		
 		List<SalesReportData> filteredReportDataList;
 		replaceFilteredReportDataList(maxRow, reportDataList);
 		List<String> headers = getHeaders(isNatTrade);
@@ -47,8 +52,8 @@ public class SalesApp {
 		filteredReportDataList = tempList;
 	}
 
-	protected List<SalesReportData> getSalesReportData(boolean isSupervisor, Sales sales) {
-		SalesReportDao salesReportDao = new SalesReportDao();
+	protected List<SalesReportData> getSalesReportData(boolean isSupervisor, Sales sales, SalesReportDao salesReportDao) {
+//		SalesReportDao salesReportDao = new SalesReportDao();
 		List<SalesReportData> reportDataList = salesReportDao.getReportData(sales);
 		List<SalesReportData> filteredReportDataList = new ArrayList<SalesReportData>();
 

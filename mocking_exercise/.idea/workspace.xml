@@ -2,76 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db7480ba-f1df-4550-a996-d3e9a136bd95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jmockit_jmockit_1_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/CarDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/CarDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/InOrderParkingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/ParkingBoy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/ParkingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/Receipt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parking/VipParkingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sales/EcmService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sales/Sales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sales/SalesActivityReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sales/SalesDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sales/SalesReportDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sales/SalesReportData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parking/InOrderParkingStrategyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parking/InOrderParkingStrategyTestAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parking/ParkingLotTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyJMockitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyJMockitTestAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyTestAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/parking/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/parking/CarDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/parking/CarDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/parking/InOrderParkingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/parking/ParkingBoy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/parking/ParkingLot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/parking/ParkingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/parking/Receipt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/parking/VipParkingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sales/EcmService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sales/Sales.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sales/SalesActivityReport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sales/SalesApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sales/SalesDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sales/SalesReportDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sales/SalesReportData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/InOrderParkingStrategyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/InOrderParkingStrategyTestAnswer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/ParkingLotTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyJMockitTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyJMockitTestAnswer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyJMockitTestAnswer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyJMockitTestAnswer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/parking/VipParkingStrategyTestAnswer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/sales/SalesAppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="-750">
+              <caret line="18" column="102" lean-forward="true" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
               <folding>
                 <element signature="e#1134#1151#0" expanded="true" />
                 <element signature="e#1384#1401#0" expanded="true" />
@@ -99,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+            <state relative-caret-position="568">
+              <caret line="39" column="84" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -245,39 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_true_given_today_time_when_call_getSales">
-    <configuration name="InOrderParkingStrategyTestAnswer.testCreateReceipt_givenACarAndAParkingLog_thenGiveAReceiptWithCarNameAndParkingLotName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="parking" />
-      <option name="MAIN_CLASS_NAME" value="parking.InOrderParkingStrategyTestAnswer" />
-      <option name="METHOD_NAME" value="testCreateReceipt_givenACarAndAParkingLog_thenGiveAReceiptWithCarNameAndParkingLotName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InOrderParkingStrategyTestAnswer.testPark_givenNoAvailableParkingLot_thenCreateNoSpaceReceipt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="parking" />
-      <option name="MAIN_CLASS_NAME" value="parking.InOrderParkingStrategyTestAnswer" />
-      <option name="METHOD_NAME" value="testPark_givenNoAvailableParkingLot_thenCreateNoSpaceReceipt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SalesAppTest.should_run_1_times_given_sales_when_call_getSalesReportData">
     <configuration name="InOrderParkingStrategyTestAnswer.testPark_givenThereIsOneParkingLotWithSpace_thenCreateReceipt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
@@ -326,13 +227,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SalesAppTest.should_run_1_times_given_right_salesId_when_call_getSales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="should_run_1_times_given_right_salesId_when_call_getSales" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesAppTest.should_run_1_times_given_sales_when_call_getSalesReportData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="should_run_1_times_given_sales_when_call_getSalesReportData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesAppTest.should_run_1_times_given_sales_when_call_getSalesReportData" />
+        <item itemvalue="JUnit.SalesAppTest.should_run_1_times_given_right_salesId_when_call_getSales" />
         <item itemvalue="JUnit.SalesAppTest.should_return_true_given_today_time_when_call_getSales" />
         <item itemvalue="JUnit.SalesAppTest.should_return_sales_given_today_time_when_call_getSales" />
         <item itemvalue="JUnit.InOrderParkingStrategyTestAnswer.testPark_givenThereIsOneParkingLotWithSpace_thenCreateReceipt" />
-        <item itemvalue="JUnit.InOrderParkingStrategyTestAnswer.testPark_givenNoAvailableParkingLot_thenCreateNoSpaceReceipt" />
-        <item itemvalue="JUnit.InOrderParkingStrategyTestAnswer.testCreateReceipt_givenACarAndAParkingLog_thenGiveAReceiptWithCarNameAndParkingLotName" />
       </list>
     </recent_temporary>
   </component>
@@ -546,23 +479,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+        <state relative-caret-position="-750">
+          <caret line="18" column="102" lean-forward="true" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="102" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1134#1151#0" expanded="true" />
+            <element signature="e#1384#1401#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="568">
+          <caret line="39" column="84" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
           <folding>
-            <element signature="e#1134#1151#0" expanded="true" />
-            <element signature="e#1384#1401#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
